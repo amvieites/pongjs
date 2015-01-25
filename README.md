@@ -1,2 +1,2 @@
 # pongjs
-Pong game in raw javascript
+Just a simple Pong game made in raw javascript.
