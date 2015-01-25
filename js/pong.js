@@ -40,7 +40,7 @@ function Ball() {
     "use strict";
     this.x = WIDTH / 2 - 5;
     this.y = HEIGHT / 2 - 5;
-    this.speed = 5;
+    this.speed = 7;
     this.direction = {
         x: -1,
         y: 0
