@@ -1,0 +1,49 @@
+<div id="container">
+    <div id="scoreboard"></div>
+    <canvas id="pong" width="500" height="400"></canvas>
+    <div id="controls"><div class="p1"><img src="img/letter-a-icon.png"/> <img src="img/letter-z-icon.png"/></div><div class="p2"><img src="img/arrow-up-icon.png"/> <img src="img/arrow-down-icon.png"/></div></div>
+</div>
+<script>
+function score(p1, p2) {
+    "use strict";
+    var div = document.getElementById('scoreboard');
+    div.innerText = p1 + ' - ' + p2;
+}
+</script>
+<script src="js/pong.js"></script>
+<style>
+    #scoreboard {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+        width: 500px;
+        text-align: center;
+        font-size: 2em;
+        font-family: verdana;
+        color: #2E3340;
+    }
+    #controls {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+        width: 500px;
+    }
+    #controls div {
+        display: inline;
+    }
+    #controls .p1 {
+        float: left;
+    }
+    #controls .p2 {
+        float: right;
+    }
+    canvas {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+        width: 500px;
+    }
+</style>
